@@ -1,0 +1,6 @@
+1. kubectl get pods (To get pods)
+2. kubectl get pods -n <namespace> (To get pods in a specific namespace)
+3. kubectl describe pod <pod-name> (Gives detailed info of a pod)
+4. kubectl describe pod <pod-name> -n <namespace> (Gives detailed info of a pod in a specific namespace)
+5. kubectl get pod my-pod -o yaml (Gives yaml of a pod)
+6. kubectl get pods -o wide (Gives detailed info of a pod)
