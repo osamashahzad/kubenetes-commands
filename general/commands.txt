@@ -1,0 +1,1 @@
+kubectl get pod -n nginx -o yaml > sample.yml (Helps getting yaml of a pod and writing it to a file)
