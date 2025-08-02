@@ -1,1 +1,4 @@
 1. kubectl auth whoami (Gives information about the current user)
+2. kubectl auth can-i <define an action> (Tells you what type of actions can you perform)
+3. kubectl auth can-i get pods -n <namespace> (Tells whether you can list pods in a specific namespace)
+4. kubectl auth can-i get pods -n <namespace> --as=<user-name> (Tells whether a specific user in a specific namespace has access to perform the action to get pods)
